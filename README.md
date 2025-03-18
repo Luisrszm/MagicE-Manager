@@ -1,4 +1,4 @@
-# weatherDashboardSuper
+# MagicE-Manager | Magic Employee Manager 🚀
 
 ## Description
 
@@ -17,10 +17,15 @@ The Employee Management System is a command-line application that allows busines
 ## Installation
 
 ### Software recquired:
-- Node toolkit
-- PostgreSQL CLI, pgAdmin4. Used as the backend database to store all data.
+- node toolkit
+- inquirer node module
+- PostgreSQL CLI, pgAdmin4 and pg node module. Used as the backend database to store all data.
+- dotenv node module
 
 For installation refer to [Node](https://nodejs.org/en/download/) and [PostgreSQL](https://www.postgresql.org/download/) official documentation.
+
+After that, run the following commands on your CLI at the MagicE-Manager directory to invoke the application:
+`npm i node & npm i inquirer & npm i dotenv & npm i pg & cd src & npm run start`
 
 ## Test
 
