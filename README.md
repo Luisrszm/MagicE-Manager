@@ -1,9 +1,8 @@
-# weatherDashboardSuper
+# MagicE-Manager | Magic Employee Manager 🚀
 
 ## Description
 
-This project provides a simple and intuitive way to view the current weather outlook for multiple cities. It allows travelers to quickly gather essential weather information to aid in trip planning. This tool aims to simplify the process of checking weather forecasts, making it easier for users to make informed decisions about their travel plans.
-
+The Employee Management System is a command-line application that allows business owners to efficiently view and manage the departments, roles, and employees in their company. This tool enables effective organization and planning by providing a structured way to store and retrieve company data. Developing this project enhanced inquirer and data base skills previously used in past tasks.
 
 ## Table of Contents
 
@@ -17,11 +16,24 @@ This project provides a simple and intuitive way to view the current weather out
 
 ## Installation
 
-No installation required
+### Software recquired:
+- node toolkit
+- inquirer node module
+- PostgreSQL CLI, pgAdmin4 and pg node module. Used as the backend database to store all data.
+- dotenv node module
+
+For installation refer to [Node](https://nodejs.org/en/download/) and [PostgreSQL](https://www.postgresql.org/download/) official documentation.
+
+After that, run the following commands on your CLI at the MagicE-Manager directory to invoke the application:
+`npm i & npm i inquirer & npm i dotenv & npm i pg & cd src & npm run start`
+
+## Test
+
+Refer to the video for a quick demo of the tool.
 
 ## Usage
 
-Follow [this link](https://weatherdashboardsuper.onrender.com) to use the web service.
+Follow [this link](#) to watch a tutorial on how the tool works.
 
 ## License
 
