@@ -27,36 +27,36 @@ const startCli = async (runCli: Cli) => {
             runCli.viewDep();
             startCli(runCli);
             break;
-        // case 'View all roles':
-        //     // viewRol class call
-        //     //Cli.viewRol();
-        //     startCli();
-        //     break;
-        // case 'View all employees':
-        //     // viewEmp class call
-        //     //Cli.viewEmp();
-        //     startCli();
-        //     break;
-        // case 'Add a department':
-        //     // addDep class call
-        //     //Cli.addDep();
-        //     startCli();
-        //     break;
-        // case 'Add a role':
-        //     // addRol class call
-        //     //Cli.addRol();
-        //     startCli();
-        //     break;
-        // case 'Add a employee':
-        //     // addEmp class call
-        //     //Cli.addEmp();
-        //     startCli();
-        //     break;
-        // case 'Update an employee role':
-        //     // editEmp class call
-        //     //Cli.editEmp();
-        //     startCli();
-        //     break;
+        case 'View all roles':
+            // viewRol class call
+            runCli.viewRol();
+            startCli(runCli);
+            break;
+        case 'View all employees':
+            // viewEmp class call
+            runCli.viewEmp();
+            startCli(runCli);
+            break;
+        case 'Add a department':
+            // addDep class call
+            runCli.addDep();
+            startCli(runCli);
+            break;
+        case 'Add a role':
+            // addRol class call
+            runCli.addRol();
+            startCli(runCli);
+            break;
+        case 'Add a employee':
+            // addEmp class call
+            runCli.addEmp();
+            startCli(runCli);
+            break;
+        case 'Update an employee role':
+            // editEmp class call
+            runCli.editEmp();
+            startCli(runCli);
+            break;
         default:
             console.log(`---
                 Closing Cli. To restart type: "node index.js"
